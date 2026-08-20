@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="Gaber Hosny - Cybersecurity, Penetration Testing, Network Security">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#080F1C"/><stop offset="55%" stop-color="#0E1B2E"/><stop offset="100%" stop-color="#12304A"/>
+    </linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#22D3EE"/><stop offset="50%" stop-color="#34D399"/><stop offset="100%" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#5EEAD4" stop-opacity="0"/><stop offset="50%" stop-color="#5EEAD4" stop-opacity="0.85"/><stop offset="100%" stop-color="#5EEAD4" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.3"/><stop offset="100%" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0 L0 0 0 40" fill="none" stroke="#5EEAD4" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <clipPath id="typeClip"><rect class="typeRect" x="64" y="92" width="252" height="28"/></clipPath>
+    <clipPath id="shieldClip">
+      <path d="M1035 62 L1120 94 L1120 172 C1120 216 1080 250 1035 264 C990 250 950 216 950 172 L950 94 Z"/>
+    </clipPath>
+
+    <style>
+      @keyframes typing   { 0% { width: 0 } 45% { width: 252px } 92% { width: 252px } 100% { width: 0 } }
+      @keyframes caret    { 0%,49% { opacity: 1 } 50%,100% { opacity: 0 } }
+      @keyframes caretMove{ 0% { transform: translateX(-252px) } 45%,92% { transform: translateX(0) } 100% { transform: translateX(-252px) } }
+      @keyframes flow     { to { stroke-dashoffset: -56 } }
+      @keyframes breathe  { 0%,100% { opacity: .45; transform: scale(.94) } 50% { opacity: 1; transform: scale(1.06) } }
+      @keyframes nodePulse{ 0%,100% { opacity: .35 } 50% { opacity: 1 } }
+      @keyframes scan     { 0% { transform: translateY(-40px) } 100% { transform: translateY(230px) } }
+      @keyframes lockGlow { 0%,100% { opacity: .55 } 50% { opacity: 1 } }
+      @keyframes riseIn   { 0% { opacity: 0; transform: translateY(10px) } 100% { opacity: 1; transform: translateY(0) } }
+      @keyframes pillIn   { 0% { opacity: 0; transform: translateY(8px) } 100% { opacity: 1; transform: translateY(0) } }
+
+      .typeRect { animation: typing 6s steps(20, end) infinite; }
+      .caret    { animation: caret 1s steps(1) infinite, caretMove 6s steps(20, end) infinite; }
+      .edge     { stroke-dasharray: 6 8; animation: flow 2.2s linear infinite; }
+      .glow     { transform-origin: 1035px 160px; animation: breathe 5s ease-in-out infinite; }
+      .node     { animation: nodePulse 2.6s ease-in-out infinite; }
+      .n2 { animation-delay: .3s } .n3 { animation-delay: .6s } .n4 { animation-delay: .9s }
+      .n5 { animation-delay: 1.2s } .n6 { animation-delay: 1.5s } .n7 { animation-delay: 1.8s }
+      .scan     { animation: scan 3.8s cubic-bezier(.4,0,.6,1) infinite; }
+      .lock     { animation: lockGlow 2.8s ease-in-out infinite; }
+      .name     { animation: riseIn .9s ease-out both; }
+      .sub      { animation: riseIn .9s .18s ease-out both; }
+      .pill     { animation: pillIn .6s ease-out both; }
+      .p1 { animation-delay: .40s } .p2 { animation-delay: .52s } .p3 { animation-delay: .64s }
+      .p4 { animation-delay: .76s } .p5 { animation-delay: .88s }
+      @media (prefers-reduced-motion: reduce) { * { animation: none !important } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+  <circle class="glow" cx="1035" cy="160" r="200" fill="url(#glow)"/>
+  <rect x="0" y="0" width="6" height="320" rx="3" fill="url(#barGrad)"/>
+
+  <g class="edge" stroke="#22D3EE" stroke-opacity="0.5" stroke-width="1.4" fill="none">
+    <path d="M760 70 L830 118 L790 200 L700 176 Z"/>
+    <path d="M830 118 L905 92"/><path d="M790 200 L868 246"/><path d="M700 176 L648 232"/>
+  </g>
+  <g fill="#22D3EE">
+    <circle class="node"    cx="760" cy="70"  r="4"/>
+    <circle class="node n2" cx="830" cy="118" r="4"/>
+    <circle class="node n3" cx="790" cy="200" r="4"/>
+    <circle class="node n4" cx="700" cy="176" r="4"/>
+    <circle class="node n5" cx="905" cy="92"  r="3"/>
+    <circle class="node n6" cx="868" cy="246" r="3"/>
+    <circle class="node n7" cx="648" cy="232" r="3"/>
+  </g>
+
+  <g>
+    <path d="M1035 62 L1120 94 L1120 172 C1120 216 1080 250 1035 264 C990 250 950 216 950 172 L950 94 Z"
+          fill="#0B1729" stroke="url(#acc)" stroke-width="3"/>
+    <path d="M1035 62 L1120 94 L1120 172 C1120 216 1080 250 1035 264 Z" fill="#22D3EE" fill-opacity="0.07"/>
+    <g clip-path="url(#shieldClip)">
+      <rect class="scan" x="950" y="62" width="170" height="34" fill="url(#scanGrad)" opacity="0.5"/>
+    </g>
+    <g class="lock">
+      <path d="M1017 152 v-18 a18 18 0 0 1 36 0 v18" fill="none" stroke="url(#acc)" stroke-width="7" stroke-linecap="round"/>
+      <rect x="1005" y="150" width="60" height="52" rx="10" fill="url(#acc)"/>
+      <circle cx="1035" cy="170" r="7" fill="#0B1729"/>
+      <rect x="1032" y="172" width="6" height="16" rx="3" fill="#0B1729"/>
+    </g>
+  </g>
+
+  <g clip-path="url(#typeClip)">
+    <text x="64" y="112" font-family="ui-monospace, SFMono-Regular, Consolas, Menlo, monospace" font-size="20" fill="#34D399">root@gaber:~$ whoami</text>
+  </g>
+  <rect class="caret" x="316" y="95" width="10" height="22" fill="#34D399"/>
+
+  <text class="name" x="64" y="182" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#F1F5F9">Gaber Hosny</text>
+  <text class="sub"  x="64" y="220" font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="22" fill="#94A3B8">Cybersecurity  ·  Penetration Testing  ·  Network Security</text>
+
+  <g font-family="Segoe UI, Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="600">
+    <g class="pill p1"><rect x="64"  y="246" width="86"  height="32" rx="16" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.45"/><text x="107" y="267" fill="#7DD3FC" text-anchor="middle">CCNA</text></g>
+    <g class="pill p2"><rect x="162" y="246" width="86"  height="32" rx="16" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.45"/><text x="205" y="267" fill="#7DD3FC" text-anchor="middle">Linux</text></g>
+    <g class="pill p3"><rect x="260" y="246" width="96"  height="32" rx="16" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.45"/><text x="308" y="267" fill="#7DD3FC" text-anchor="middle">Python</text></g>
+    <g class="pill p4"><rect x="368" y="246" width="118" height="32" rx="16" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.45"/><text x="427" y="267" fill="#7DD3FC" text-anchor="middle">Burp Suite</text></g>
+    <g class="pill p5"><rect x="498" y="246" width="104" height="32" rx="16" fill="#22D3EE" fill-opacity="0.12" stroke="#22D3EE" stroke-opacity="0.45"/><text x="550" y="267" fill="#7DD3FC" text-anchor="middle">OWASP</text></g>
+  </g>
+</svg>
