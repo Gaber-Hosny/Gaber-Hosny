@@ -1,4 +1,8 @@
-<h1 align="center">Hi, I'm Gaber Hosny 👋</h1>
+<p align="center">
+  <img src="./banner.svg" alt="Gaber Hosny — Cybersecurity, Penetration Testing, Network Security" width="100%">
+</p>
+
+<h1 align="center">✨ Hi, I'm Gaber Hosny ✨</h1>
 
 <p align="center">
   <b>Cybersecurity · Penetration Testing · Network & Web Application Security</b><br>
